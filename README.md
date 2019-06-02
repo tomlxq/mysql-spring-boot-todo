@@ -18,7 +18,7 @@ Assume you already have Docker and Maven installed.
 First, clone the project and build locally:
 
 ```
-git clone https://github.com/yangzhares/mysql-spring-boot-todo.git
+git clone https://github.com/tomlxq/mysql-spring-boot-todo.git
 cd mysql-spring-boot-todo
 mvn clean package docker:build
 ```
