@@ -39,7 +39,7 @@ docker logs mysql
 Run todo application in Docker container and link to `mysql`:
 
 ```
-docker run -p 8080:8080 --name todo --link mysql -d zhanyang/todo-demo:1.0.0
+docker run -p 8080:8080 --name todo --link mysql -d tom/todo-demo:1.0.0
 ```
 
 You can check the log by
